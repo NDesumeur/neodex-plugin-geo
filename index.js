@@ -369,7 +369,7 @@ export default async function (ctx) {
   }
   function next() {
     st.fx = null; st.sel = 0;
-    if (++st.i >= st.qs.length) { st.done = true; save.series++; const k = st.mode + '|' + (save.zone || 'monde'); st.newBest = st.ok > (save.best[k] || 0); if (st.newBest) save.best[k] = st.ok; keep(); info(); }
+    if (++st.i >= st.qs.length) { st.done = true; save.series++; const k = st.mode + '|' + (save.zone || 'monde'); st.newBest = st.ok > (save.best[k] || 0); if (st.newBest) save.best[k] = st.ok; keep(); info(); $('geCanvas').setAttribute('aria-label', 'Série finie : ' + st.ok + ' sur ' + st.qs.length + '.'); }
   }
   const box = i => [8 + (i % 2) * 116, 88 + Math.floor(i / 2) * 22, 108, 18];
   function draw() {
@@ -411,12 +411,12 @@ export default async function (ctx) {
     if (/^[1-4]$/.test(k)) { st.sel = +k - 1; answer(st.sel); return; }
     const mv = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -2, ArrowDown: 2 }[k];
     if (mv) { e.preventDefault(); st.sel = (st.sel + mv + 4) % 4; return; }
-    if (k === 'Enter' || k === ' ') { e.preventDefault(); if (st.fx) { st.fx.t = 0; } else answer(st.sel); }
+    if (k === 'Enter' || k === ' ') { e.preventDefault(); if (st.fx) next(); else answer(st.sel); }
   });
   { const cv = $('geCanvas'), at = e => { const b = cv.getBoundingClientRect(); return [(e.clientX - b.left) / b.width * W, (e.clientY - b.top) / b.height * H]; };
     const hit = ([x, y]) => [0, 1, 2, 3].find(i => { const [bx, by, bw, bh] = box(i); return x >= bx && x < bx + bw && y >= by && y < by + bh; });
     cv.onpointermove = e => { if (st && !st.done && !st.fx) { const i = hit(at(e)); if (i !== undefined) st.sel = i; } };
-    cv.onpointerdown = e => { e.preventDefault(); if (!st) return; if (st.done) { start(); return; } if (st.fx) { st.fx.t = 0; return; } const i = hit(at(e)); if (i !== undefined) answer(i); };
+    cv.onpointerdown = e => { e.preventDefault(); if (!st) return; if (st.done) { start(); return; } if (st.fx) { next(); return; } const i = hit(at(e)); if (i !== undefined) answer(i); };
   }
   padKeys();
   {  // vérification : pas deux fois le même code ni le même nom, chaque série a 10 questions à 4 réponses différentes dont la bonne, dans chaque mode et chaque continent
