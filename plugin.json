@@ -1,9 +1,9 @@
 {
   "id": "neodex.geo",
   "name": "Géo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "NDesumeur",
-  "description": "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale. 194 pays, par continent ou le monde entier, séries de 10 questions à 4 réponses, les pays ratés reviennent plus souvent. Clavier, souris ou manette. Drapeaux fournis par flagcdn.com.",
+  "description": "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, séries de 10 questions, les pays ratés reviennent plus souvent et la fin de série montre tes erreurs avec la bonne réponse. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com.",
   "icon": "icon.png",
   "entry": "index.js",
   "view": "geo",
