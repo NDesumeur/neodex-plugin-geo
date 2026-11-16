@@ -99,5 +99,13 @@
  "et ": "and ",
  "pays dont la capitale est": "country whose capital is",
  "série finie trop tôt": "round over too early",
- "vérification interne :": "self-check:"
+ "vérification interne :": "self-check:",
+ "Bravo :": "Well done:",
+ "Non :": "No:",
+ "Où est :": "Where is:",
+ "À revoir :": "To review:",
+ ": où est": ": where is",
+ "? Clique sur la carte, ou flèches et Entrée.": "? Click on the map, or arrows and Enter.",
+ "pays sans point :": "countries without a dot:",
+ "au centre donne": "in the centre gives"
 }
