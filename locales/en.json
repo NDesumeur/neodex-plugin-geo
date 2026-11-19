@@ -85,7 +85,6 @@
  "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, séries de 10 questions, les pays ratés reviennent plus souvent et la fin de série montre tes erreurs avec la bonne réponse. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com.": "Pixel-art geography quiz: recognise flags, find capitals or the country of a capital, or click the requested country on a pixel world map. 194 countries, by continent or the whole world, series of 10 questions, missed countries come back more often and the end of a series shows your mistakes with the right answer. Keyboard, mouse or gamepad, full screen. Flags provided by flagcdn.com.",
  "RECORDS": "RECORDS",
  "Record (ce choix)": "Record (this choice)",
- "Records, bonnes réponses et pays à revoir.": "Records, right answers and countries to review.",
  "SÉRIE FINIE": "SERIES OVER",
  "Série finie :": "Round over:",
  "Séries": "Series",
@@ -107,5 +106,6 @@
  ": où est": ": where is",
  "? Clique sur la carte, ou flèches et Entrée.": "? Click on the map, or arrows and Enter.",
  "pays sans point :": "countries without a dot:",
- "au centre donne": "in the centre gives"
+ "au centre donne": "in the centre gives",
+ "Rien n'est synchronisé : tes records restent sur cet appareil.": "Nothing is synced: your records stay on this device."
 }
