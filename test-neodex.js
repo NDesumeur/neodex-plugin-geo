@@ -36,6 +36,15 @@ module.exports = async ({ pj, sleep }) => {
   for (let i = 0; i < 10; i++) { const k = await pj(`document.getElementById('geCanvas').__q()`); await key(String((i < 4 ? k + 1 : k) % 4 + 1)); await sleep(60); await key('Enter'); await sleep(60); }
   await sleep(1200); await shot('5-fin-capitales');
   if (await C('return st.missed.length;') !== 4) throw new Error('quatre erreurs attendues');
+  // la France : les numéros (pas de drapeau), puis la carte des départements, chacun cliqué en son centre
+  await pick('flag', 'fr'); await sleep(200);
+  if (await pj("document.getElementById('geMode').selectedOptions[0].textContent") !== 'Numéros') throw new Error('mode numéros');
+  await shot('6-numeros');
+  for (let i = 0; i < 10; i++) { const k = await pj("document.getElementById('geCanvas').__q()"); await key(String(k + 1)); await sleep(60); await key('Enter'); await sleep(60); }
+  await sleep(300); if (await C('return st.done + "|" + st.ok;') !== 'true|10') throw new Error('numéros : ' + await C('return st.ok;'));
+  await pick('map', 'fr'); await sleep(200);
+  for (let i = 0; i < 10; i++) { await C('const m = T.map(st.zone), k = T.idx(st.qs[st.i].c), [x, y] = m.mid[k]; st.cur = [x, y + T.MY]; st.hov = k; return 0;'); if (i === 0) { await sleep(80); await shot('7-france'); } await key('Enter'); await sleep(60); await key('Enter'); await sleep(60); }
+  await sleep(300); const fr = await C('return st.done + "|" + st.ok + "|" + st.qs.every(q => q.c.zone === "fr");'); if (fr !== 'true|10|true') throw new Error('carte de France : ' + fr);
   const errs = await pj(`window.__e.join(' | ')`); if (errs) throw new Error('erreur : ' + errs);
   // plein écran, et la zone de jeu qui tient dans la fenêtre
   await pj(`document.fullscreenElement && document.exitFullscreen(), 0`); await sleep(200);

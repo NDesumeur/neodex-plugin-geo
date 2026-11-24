@@ -4,6 +4,10 @@ A pixel-art geography quiz: flags, capitals and countries (names in French).
 
 *Version française : [README.md](README.md)*
 
+## French départements (new in 1.2.0)
+
+In the region list, **France (départements)**: the 96 départements of mainland France. Four ways to play: **numbers** (which département is 69?), **prefectures**, **the département of a prefecture**, and the **map** where you click the requested département. The map is hand-drawn: each département takes the land closest to its centre, so the shapes are approximate but the places are right. Paris and its inner ring, too small to click, stay in the three other games.
+
 ## Games
 
 - **Flags**: find the country. **Capitals**: find a country’s capital. **Country of a capital**: the other way round.

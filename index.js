@@ -25,8 +25,15 @@ af|Afghanistan|Kaboul|as;am|Arménie|Erevan|as;az|Azerbaïdjan|Bakou|as;bh|Bahre
 dz|Algérie|Alger|af;ao|Angola|Luanda|af;bj|Bénin|Porto-Novo|af;bw|Botswana|Gaborone|af;bf|Burkina Faso|Ouagadougou|af;bi|Burundi|Gitega|af;cv|Cap-Vert|Praia|af;cm|Cameroun|Yaoundé|af;cf|Centrafrique|Bangui|af;td|Tchad|N'Djaména|af;km|Comores|Moroni|af;cd|RD Congo|Kinshasa|af;cg|Congo|Brazzaville|af;ci|Côte d'Ivoire|Yamoussoukro|af;dj|Djibouti|Djibouti|af;eg|Égypte|Le Caire|af;gq|Guinée équatoriale|Malabo|af;er|Érythrée|Asmara|af;sz|Eswatini|Mbabane|af;et|Éthiopie|Addis-Abeba|af;ga|Gabon|Libreville|af;gm|Gambie|Banjul|af;gh|Ghana|Accra|af;gn|Guinée|Conakry|af;gw|Guinée-Bissau|Bissau|af;ke|Kenya|Nairobi|af;ls|Lesotho|Maseru|af;lr|Liberia|Monrovia|af;ly|Libye|Tripoli|af;mg|Madagascar|Antananarivo|af;mw|Malawi|Lilongwe|af;ml|Mali|Bamako|af;mr|Mauritanie|Nouakchott|af;mu|Maurice|Port-Louis|af;ma|Maroc|Rabat|af;mz|Mozambique|Maputo|af;na|Namibie|Windhoek|af;ne|Niger|Niamey|af;ng|Nigeria|Abuja|af;rw|Rwanda|Kigali|af;st|Sao Tomé-et-Principe|Sao Tomé|af;sn|Sénégal|Dakar|af;sc|Seychelles|Victoria|af;sl|Sierra Leone|Freetown|af;so|Somalie|Mogadiscio|af;za|Afrique du Sud|Pretoria|af;ss|Soudan du Sud|Djouba|af;sd|Soudan|Khartoum|af;tz|Tanzanie|Dodoma|af;tg|Togo|Lomé|af;tn|Tunisie|Tunis|af;ug|Ouganda|Kampala|af;zm|Zambie|Lusaka|af;zw|Zimbabwe|Harare|af
 ag|Antigua-et-Barbuda|Saint John's|na;bs|Bahamas|Nassau|na;bb|Barbade|Bridgetown|na;bz|Belize|Belmopan|na;ca|Canada|Ottawa|na;cr|Costa Rica|San José|na;cu|Cuba|La Havane|na;dm|Dominique|Roseau|na;do|République dominicaine|Saint-Domingue|na;sv|Salvador|San Salvador|na;gd|Grenade|Saint-Georges|na;gt|Guatemala|Guatemala|na;ht|Haïti|Port-au-Prince|na;hn|Honduras|Tegucigalpa|na;jm|Jamaïque|Kingston|na;mx|Mexique|Mexico|na;ni|Nicaragua|Managua|na;pa|Panama|Panama|na;kn|Saint-Christophe-et-Niévès|Basseterre|na;lc|Sainte-Lucie|Castries|na;vc|Saint-Vincent-et-les-Grenadines|Kingstown|na;tt|Trinité-et-Tobago|Port-d'Espagne|na;us|États-Unis|Washington|na
 ar|Argentine|Buenos Aires|sa;bo|Bolivie|Sucre|sa;br|Brésil|Brasilia|sa;cl|Chili|Santiago|sa;co|Colombie|Bogota|sa;ec|Équateur|Quito|sa;gy|Guyana|Georgetown|sa;py|Paraguay|Asuncion|sa;pe|Pérou|Lima|sa;sr|Suriname|Paramaribo|sa;uy|Uruguay|Montevideo|sa;ve|Venezuela|Caracas|sa
-au|Australie|Canberra|oc;fj|Fidji|Suva|oc;ki|Kiribati|Tarawa|oc;mh|Îles Marshall|Majuro|oc;fm|Micronésie|Palikir|oc;nr|Nauru||oc;nz|Nouvelle-Zélande|Wellington|oc;pw|Palaos|Ngerulmud|oc;pg|Papouasie-Nouvelle-Guinée|Port Moresby|oc;ws|Samoa|Apia|oc;sb|Îles Salomon|Honiara|oc;to|Tonga|Nukualofa|oc;tv|Tuvalu|Funafuti|oc;vu|Vanuatu|Port-Vila|oc`;
-const GE_ZONES = [['', 'Monde entier'], ['eu', 'Europe'], ['af', 'Afrique'], ['as', 'Asie'], ['na', 'Amérique du Nord'], ['sa', 'Amérique du Sud'], ['oc', 'Océanie']];
+au|Australie|Canberra|oc;fj|Fidji|Suva|oc;ki|Kiribati|Tarawa|oc;mh|Îles Marshall|Majuro|oc;fm|Micronésie|Palikir|oc;nr|Nauru||oc;nz|Nouvelle-Zélande|Wellington|oc;pw|Palaos|Ngerulmud|oc;pg|Papouasie-Nouvelle-Guinée|Port Moresby|oc;ws|Samoa|Apia|oc;sb|Îles Salomon|Honiara|oc;to|Tonga|Nukualofa|oc;tv|Tuvalu|Funafuti|oc;vu|Vanuatu|Port-Vila|oc
+f01|Ain|Bourg-en-Bresse|fr;f02|Aisne|Laon|fr;f03|Allier|Moulins|fr;f04|Alpes-de-Haute-Provence|Digne-les-Bains|fr;f05|Hautes-Alpes|Gap|fr;f06|Alpes-Maritimes|Nice|fr;f07|Ardèche|Privas|fr;f08|Ardennes|Charleville-Mézières|fr;f09|Ariège|Foix|fr;f10|Aube|Troyes|fr;f11|Aude|Carcassonne|fr;f12|Aveyron|Rodez|fr;f13|Bouches-du-Rhône|Marseille|fr;f14|Calvados|Caen|fr;f15|Cantal|Aurillac|fr;f16|Charente|Angoulême|fr;f17|Charente-Maritime|La Rochelle|fr;f18|Cher|Bourges|fr;f19|Corrèze|Tulle|fr;f21|Côte-d'Or|Dijon|fr;f22|Côtes-d'Armor|Saint-Brieuc|fr;f23|Creuse|Guéret|fr;f24|Dordogne|Périgueux|fr;f25|Doubs|Besançon|fr;f26|Drôme|Valence|fr;f27|Eure|Évreux|fr;f28|Eure-et-Loir|Chartres|fr;f29|Finistère|Quimper|fr;f2a|Corse-du-Sud|Ajaccio|fr;f2b|Haute-Corse|Bastia|fr;f30|Gard|Nîmes|fr;f31|Haute-Garonne|Toulouse|fr;f32|Gers|Auch|fr;f33|Gironde|Bordeaux|fr;f34|Hérault|Montpellier|fr;f35|Ille-et-Vilaine|Rennes|fr;f36|Indre|Châteauroux|fr;f37|Indre-et-Loire|Tours|fr;f38|Isère|Grenoble|fr;f39|Jura|Lons-le-Saunier|fr;f40|Landes|Mont-de-Marsan|fr;f41|Loir-et-Cher|Blois|fr;f42|Loire|Saint-Étienne|fr;f43|Haute-Loire|Le Puy-en-Velay|fr;f44|Loire-Atlantique|Nantes|fr;f45|Loiret|Orléans|fr;f46|Lot|Cahors|fr;f47|Lot-et-Garonne|Agen|fr;f48|Lozère|Mende|fr;f49|Maine-et-Loire|Angers|fr;f50|Manche|Saint-Lô|fr;f51|Marne|Châlons-en-Champagne|fr;f52|Haute-Marne|Chaumont|fr;f53|Mayenne|Laval|fr;f54|Meurthe-et-Moselle|Nancy|fr;f55|Meuse|Bar-le-Duc|fr;f56|Morbihan|Vannes|fr;f57|Moselle|Metz|fr;f58|Nièvre|Nevers|fr;f59|Nord|Lille|fr;f60|Oise|Beauvais|fr;f61|Orne|Alençon|fr;f62|Pas-de-Calais|Arras|fr;f63|Puy-de-Dôme|Clermont-Ferrand|fr;f64|Pyrénées-Atlantiques|Pau|fr;f65|Hautes-Pyrénées|Tarbes|fr;f66|Pyrénées-Orientales|Perpignan|fr;f67|Bas-Rhin|Strasbourg|fr;f68|Haut-Rhin|Colmar|fr;f69|Rhône|Lyon|fr;f70|Haute-Saône|Vesoul|fr;f71|Saône-et-Loire|Mâcon|fr;f72|Sarthe|Le Mans|fr;f73|Savoie|Chambéry|fr;f74|Haute-Savoie|Annecy|fr;f75|Paris|Paris|fr;f76|Seine-Maritime|Rouen|fr;f77|Seine-et-Marne|Melun|fr;f78|Yvelines|Versailles|fr;f79|Deux-Sèvres|Niort|fr;f80|Somme|Amiens|fr;f81|Tarn|Albi|fr;f82|Tarn-et-Garonne|Montauban|fr;f83|Var|Toulon|fr;f84|Vaucluse|Avignon|fr;f85|Vendée|La Roche-sur-Yon|fr;f86|Vienne|Poitiers|fr;f87|Haute-Vienne|Limoges|fr;f88|Vosges|Épinal|fr;f89|Yonne|Auxerre|fr;f90|Territoire de Belfort|Belfort|fr;f91|Essonne|Évry-Courcouronnes|fr;f92|Hauts-de-Seine|Nanterre|fr;f93|Seine-Saint-Denis|Bobigny|fr;f94|Val-de-Marne|Créteil|fr;f95|Val-d'Oise|Cergy|fr`;
+const GE_ZONES = [['', 'Monde entier'], ['eu', 'Europe'], ['af', 'Afrique'], ['as', 'Asie'], ['na', 'Amérique du Nord'], ['sa', 'Amérique du Sud'], ['oc', 'Océanie'], ['fr', 'France (départements)']];
+// la France de métropole et la Corse, dessinées à la main pour la carte des départements (les pays voisins restent gris) ;
+// chaque département a un point à son centre et prend la terre la plus proche : les formes sont approchées, les places justes.
+// Paris et la petite couronne (75, 92, 93, 94) sont trop petits pour la carte : ils restent dans les autres questions
+const GE_FR = ['2.55,51.09 1.6,50.95 1.58,50.4 1.4,50.1 1.0,49.95 0.2,49.7 0.1,49.48 -0.2,49.3 -1.1,49.4 -1.25,49.65 -1.6,49.65 -1.95,49.72 -1.85,49.4 -1.6,48.85 -1.4,48.65 -2.0,48.65 -2.75,48.55 -3.2,48.85 -3.95,48.72 -4.65,48.55 -4.75,48.35 -4.4,48.25 -4.6,48.05 -4.35,47.8 -3.9,47.85 -3.35,47.7 -3.1,47.5 -2.75,47.5 -2.45,47.3 -2.15,47.25 -2.05,47.0 -2.25,46.8 -1.85,46.55 -1.2,46.3 -1.15,46.15 -1.1,45.85 -1.25,45.65 -1.15,45.5 -1.25,45.0 -1.25,44.65 -1.3,44.4 -1.45,43.95 -1.5,43.55 -1.78,43.37 -1.4,43.25 -0.8,42.95 -0.3,42.83 0.6,42.7 1.4,42.6 1.95,42.45 2.7,42.4 3.17,42.43 3.05,42.85 3.25,43.25 3.6,43.4 4.1,43.55 4.6,43.4 4.9,43.35 5.35,43.25 5.75,43.1 6.2,43.1 6.7,43.2 6.95,43.5 7.5,43.75 7.7,44.1 6.9,44.4 7.05,44.85 6.65,45.05 7.15,45.3 6.8,45.85 6.8,46.15 6.2,46.2 6.05,46.4 6.5,46.95 6.95,47.3 7.0,47.5 7.55,47.58 7.55,48.0 7.8,48.5 8.2,48.97 7.6,49.1 6.75,49.15 6.35,49.47 5.8,49.55 5.45,49.5 4.85,49.8 4.85,50.15 4.2,49.95 3.7,50.3 3.25,50.5 2.85,50.7',
+  '9.35,43.0 9.55,42.7 9.55,42.1 9.25,41.4 8.8,41.55 8.6,41.9 8.6,42.35 9.1,42.75'];
+const geNum = c => c.iso.slice(1).toUpperCase();  // f2a → 2A
 const GE_MODES = [['flag', 'Drapeaux'], ['cap', 'Capitales'], ['land', 'Pays d’une capitale'], ['map', 'Carte']];
 // la carte du monde, dessinée à la main : les côtes en longitude,latitude (« ! » : terre sans pays du quiz, « ~ » : mer intérieure)
 const GE_LAND = [
@@ -68,9 +75,10 @@ af:66,33.9;am:45,40.2;az:47.7,40.3;bh:50.55,26.05;bd:90.3,23.7;bt:90.4,27.4;bn:1
 dz:3,28 3,34.5;ao:17.5,-12.3;bj:2.3,9.3;bw:24,-22.3;bf:-1.6,12.3;bi:29.9,-3.4;cv:-23.6,15.1;cm:12.4,6 10.5,4;cf:20.9,6.6;td:18.7,15.5;km:43.9,-11.9;cd:23.6,-2.9 25,-9 21,1.5;cg:15.2,-0.7;ci:-5.5,7.6;dj:42.6,11.8;eg:30.8,26.8;gq:10.3,1.6;er:39,15.4;sz:31.5,-26.5;et:39.6,8.6;ga:11.6,-0.8;gm:-15.4,13.45;gh:-1,7.9;gn:-10.9,10.4;gw:-15,12;ke:37.9,0.2;ls:28.2,-29.6;lr:-9.4,6.4;ly:17.2,26.3;mg:46.8,-19;mw:34.3,-13.2;ml:-2,17.5 -7,13;mr:-10.9,20.3;mu:57.55,-20.25;ma:-6.5,32 -12,26;mz:35.5,-18.7 38,-13.5;na:17.5,-22.5;ne:9.4,17;ng:8.1,9.5;rw:29.9,-2;st:6.6,0.3;sn:-14.5,14.5;sc:55.5,-4.6;sl:-11.8,8.5;so:46,6 49,10 43,2.5;za:24,-30 29,-25;ss:30,7.5;sd:30,15.5;tz:35,-6.4;tg:1,8.6;tn:9.5,34;ug:32.4,1.3;zm:27.8,-13.5;zw:29.9,-19
 ag:-61.8,17.1;bs:-77.5,24.5;bb:-59.55,13.2;bz:-88.7,17.2;ca:-100,56 -115,60 -75,50 -125,54 -90,68 -110,71 -70,58 -65,47 -78,70 -82,80 -133,65;cr:-84.2,10;cu:-79,21.8 -76,20.3;dm:-61.35,15.4;do:-70.3,18.8;sv:-88.9,13.75;gd:-61.7,12.1;gt:-90.3,15.5;ht:-72.7,18.9;hn:-86.6,14.8;jm:-77.3,18.1;mx:-102,23.5 -99,19 -112,29.5 -89,20 -94,17 -112,25;ni:-85,12.9;pa:-80.2,8.5;kn:-62.75,17.3;lc:-60.97,13.9;vc:-61.2,13.25;tt:-61.3,10.45;us:-98,39 -112,40 -120,38 -85,37 -77,41 -82,30 -152,64 -160,60 -120,46 -95,31 -70,44
 ar:-64,-34 -66,-26 -68,-46;bo:-64.5,-17;br:-52,-10 -63,-4 -42,-8 -48,-20 -52,-28 -55,-15 -50,1;cl:-71,-33 -69.5,-23 -72.5,-45 -71,-52;co:-73.5,4;ec:-78.4,-1.5;gy:-58.9,5;py:-58,-23.5;pe:-75,-10 -76,-4 -71,-14;sr:-55.9,4.1;uy:-56,-32.8;ve:-66,7.5
-au:134,-25 122,-26 146,-22 145,-36 131,-15 147,-42;fj:178,-17.8;ki:173,1.4;mh:171.2,7.1;fm:158.2,6.9;nr:166.93,-0.52;nz:175.5,-39 171,-43.5 168.5,-45.5;pw:134.6,7.5;pg:143.5,-5 146.5,-7 151,-5;ws:-172,-13.8;sb:160,-9.4;to:-175.2,-21.2;tv:179.2,-8.5;vu:167.7,-16`;
+au:134,-25 122,-26 146,-22 145,-36 131,-15 147,-42;fj:178,-17.8;ki:173,1.4;mh:171.2,7.1;fm:158.2,6.9;nr:166.93,-0.52;nz:175.5,-39 171,-43.5 168.5,-45.5;pw:134.6,7.5;pg:143.5,-5 146.5,-7 151,-5;ws:-172,-13.8;sb:160,-9.4;to:-175.2,-21.2;tv:179.2,-8.5;vu:167.7,-16
+f01:5.35,46.1;f02:3.55,49.55;f03:3.2,46.4;f04:6.25,44.1;f05:6.25,44.65;f06:7.1,43.95;f07:4.45,44.75;f08:4.65,49.6;f09:1.5,42.95;f10:4.15,48.3;f11:2.4,43.1;f12:2.65,44.3;f13:5.1,43.55;f14:-0.35,49.1;f15:2.65,45.05;f16:0.2,45.7;f17:-0.75,45.75;f18:2.5,47.05;f19:1.9,45.35;f21:4.75,47.45;f22:-2.85,48.45;f23:2.0,46.1;f24:0.75,45.1;f25:6.35,47.15;f26:5.15,44.7;f27:1.0,49.1;f28:1.35,48.4;f29:-4.1,48.25;f2a:8.95,41.85;f2b:9.25,42.4;f30:4.2,44.0;f31:1.2,43.35;f32:0.45,43.7;f33:-0.55,44.85;f34:3.4,43.6;f35:-1.65,48.15;f36:1.55,46.8;f37:0.7,47.25;f38:5.6,45.25;f39:5.7,46.75;f40:-0.8,43.95;f41:1.4,47.6;f42:4.15,45.75;f43:3.8,45.1;f44:-1.7,47.35;f45:2.35,47.9;f46:1.6,44.6;f47:0.45,44.35;f48:3.5,44.5;f49:-0.55,47.4;f50:-1.3,49.1;f51:4.25,48.95;f52:5.2,48.1;f53:-0.65,48.15;f54:6.15,48.85;f55:5.4,49.0;f56:-2.8,47.85;f57:6.65,49.05;f58:3.5,47.1;f59:3.2,50.4;f60:2.45,49.4;f61:0.1,48.6;f62:2.3,50.5;f63:3.15,45.7;f64:-0.75,43.25;f65:0.15,43.05;f66:2.5,42.6;f67:7.55,48.65;f68:7.25,47.85;f69:4.65,45.9;f70:6.1,47.6;f71:4.55,46.65;f72:0.2,47.95;f73:6.45,45.45;f74:6.4,46.05;f76:1.0,49.65;f77:2.95,48.6;f78:1.85,48.8;f79:-0.3,46.55;f80:2.3,49.95;f81:2.15,43.8;f82:1.3,44.05;f83:6.25,43.45;f84:5.2,44.0;f85:-1.3,46.65;f86:0.45,46.55;f87:1.25,45.9;f88:6.4,48.2;f89:3.55,47.85;f90:6.9,47.65;f91:2.25,48.5;f95:2.15,49.08`;
 // le cadre de la carte pour chaque continent : longitudes et latitudes à montrer
-const GE_VIEW = { '': [-170, 190, -56, 82], eu: [-25, 45, 34, 71], af: [-20, 55, -36, 38], as: [25, 150, -11, 56], na: [-170, -55, 6, 72], sa: [-85, -32, -56, 13], oc: [110, 190, -48, 10] };
+const GE_VIEW = { fr: [-5.3, 9.9, 41.2, 51.3], '': [-170, 190, -56, 82], eu: [-25, 45, 34, 71], af: [-20, 55, -36, 38], as: [25, 150, -11, 56], na: [-170, -55, 6, 72], sa: [-85, -32, -56, 13], oc: [110, 190, -48, 10] };
 /* ---------- l'habillage pixel art, dessiné à la main : police bitmap (accents compris), cadres, boutons, icônes ----------
    Tout est en pixels pleins, agrandis par 2 sans lissage : aucun dégradé, aucune ombre floue. */
 const PXK = (() => {
@@ -386,6 +394,8 @@ export default async function (ctx) {
   const save = { mode: 'flag', zone: '', best: {}, right: 0, series: 0, miss: {}, ...(await doc('records')) };
   const keep = () => folder.write('records', save).catch(() => {});
   const fill = (sel, list) => sel.replaceChildren(...list.map(([v, n]) => { const o = el('option', '', n); o.value = v; return o; }));
+  const geModeName = (m, z) => z === 'fr' ? {flag: 'Numéros', cap: 'Préfectures', land: 'Département d’une préfecture', map: 'Carte'}[m] : GE_MODES.find(x => x[0] === m)[1];
+  const geModes = () => { [...$('geMode').options].forEach(o => { o.textContent = geModeName(o.value, save.zone); }); $('geMode').value = save.mode; };
   fill($('geMode'), GE_MODES); fill($('geZone'), GE_ZONES); $('geMode').value = save.mode; $('geZone').value = save.zone;
   const MY = 14, MH = 110, IDX = new Map(C.map((c, i) => [c, i]));
   const pins = new Map(GE_PIN.split(/[;\n]/).map(t => { const [iso, p] = t.split(':'); return [iso, p.split(' ').map(q => q.split(',').map(Number))]; }));
@@ -404,7 +414,12 @@ export default async function (ctx) {
         xs.sort((a, b) => a - b);
         for (let k = 0; k + 1 < xs.length; k += 2) for (let x = Math.max(0, Math.ceil(xs[k] - .5)); x < Math.min(W, Math.ceil(xs[k + 1] - .5)); x++) land[y * W + x] = t; }
     }
-    const an = []; for (const c of C) for (const [lon, lat] of pins.get(c.iso) || []) { const [x, y] = P(lon, lat); an.push([x, y, IDX.get(c)]); }
+    if (zone === 'fr') { const fr = new Int8Array(W * MH);
+      for (const poly of GE_FR) { const pts = poly.split(' ').map(q => P(...q.split(',').map(Number)));
+        for (let y = 0; y < MH; y++) { const yc = y + .5, xs = []; for (let i = 0; i < pts.length; i++) { const [ax, ay] = pts[i], [bx, by] = pts[(i + 1) % pts.length]; if ((ay <= yc) !== (by <= yc)) xs.push(ax + (yc - ay) / (by - ay) * (bx - ax)); }
+          xs.sort((a, b) => a - b); for (let k = 0; k + 1 < xs.length; k += 2) for (let x = Math.max(0, Math.ceil(xs[k] - .5)); x < Math.min(W, Math.ceil(xs[k + 1] - .5)); x++) fr[y * W + x] = 1; } }
+      for (let p = 0; p < W * MH; p++) land[p] = fr[p] ? 1 : land[p] ? 2 : 0; }
+    const an = []; for (const c of C) { if ((c.zone === 'fr') !== (zone === 'fr')) continue; for (const [lon, lat] of pins.get(c.iso) || []) { const [x, y] = P(lon, lat); an.push([x, y, IDX.get(c)]); } }
     // les petites îles (Malte, Maurice, les Antilles…) : une tache de terre là où la côte est trop loin
     const r = Math.max(0, Math.round(.5 / sc)), near = (x, y, d) => { for (let j = -d; j <= d; j++) for (let i = -d; i <= d; i++) if (land[(y + j) * W + x + i] === 1) return true; return false; };
     for (const [x, y] of an) { const ix = Math.floor(x), iy = Math.floor(y); if (ix < 3 || iy < 3 || ix >= W - 3 || iy >= MH - 3 || near(ix, iy, 2)) continue;
@@ -430,11 +445,11 @@ export default async function (ctx) {
     for (let d = 0; d <= 4; d++) { let b = 1e9, o = -1; for (let j = -d; j <= d; j++) for (let i = -d; i <= d; i++) { const px2 = mx + i, py2 = my + j; if (px2 < 0 || py2 < 0 || px2 >= W || py2 >= MH) continue; const k = m.owner[py2 * W + px2]; if (k >= 0 && i * i + j * j < b) { b = i * i + j * j; o = k; } } if (o >= 0) return o; }
     return -1; };
   const flags = new Map();  // les images des drapeaux, chargées à la demande (et la suivante à l'avance)
-  const flag = iso => { let f = flags.get(iso); if (!f) { f = new Image(); f.crossOrigin = 'anonymous'; f.src = 'https://flagcdn.com/w80/' + iso + '.png'; f.onerror = () => { f.bad = true; }; flags.set(iso, f); } return f; };
+  const flag = iso => { if (iso.length > 2) return {complete: false, bad: true}; let f = flags.get(iso); if (!f) { f = new Image(); f.crossOrigin = 'anonymous'; f.src = 'https://flagcdn.com/w80/' + iso + '.png'; f.onerror = () => { f.bad = true; }; flags.set(iso, f); } return f; };
   const pick = (list, n, not) => { const out = []; const pool = list.filter(x => !not.includes(x)); while (out.length < n && pool.length) out.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]); return out; };
   // la série : les pays ratés avant ont plus de chances de revenir
   function series() {
-    const mode = save.mode, cnt = mode === 'map' && geoMap(save.zone).count, pool = C.filter(c => (!save.zone || c.zone === save.zone) && (mode === 'map' ? cnt[IDX.get(c)] > 0 : mode === 'flag' || c.cap)), qs = [], used = new Set();
+    const mode = save.mode, cnt = mode === 'map' && geoMap(save.zone).count, pool = C.filter(c => (save.zone ? c.zone === save.zone : c.zone !== 'fr') && (mode === 'map' ? cnt[IDX.get(c)] > 0 : mode === 'flag' || c.cap)), qs = [], used = new Set();
     while (qs.length < Math.min(N, pool.length)) {
       const w = pool.map(c => used.has(c) ? 0 : 1 + 3 * (save.miss[c.iso] || 0)), tot = w.reduce((a, b) => a + b, 0); let r = Math.random() * tot, c = pool[0];
       for (let i = 0; i < pool.length; i++) { r -= w[i]; if (r <= 0 && w[i]) { c = pool[i]; break; } }
@@ -465,7 +480,7 @@ export default async function (ctx) {
     g.imageSmoothingEnabled = false; tick++;
     px(g, '#0c1a14', 0, 0, W, H); for (let y = 16; y < H; y += 8) for (let x = (y / 8) % 2 * 4; x < W; x += 8) px(g, '#10221a', x, y, 1, 1);
     px(g, '#06100a', 0, 0, W, 14);
-    pxFont(g, GE_MODES.find(m => m[0] === st.mode)[1] + ' · ' + GE_ZONES.find(z => z[0] === save.zone)[1], 4, 11, '#ffffff');
+    pxFont(g, geModeName(st.mode, save.zone) + ' · ' + (save.zone === 'fr' ? 'France' : GE_ZONES.find(z => z[0] === save.zone)[1]), 4, 11, '#ffffff');
     for (let i = 0; i < st.qs.length; i++) px(g, i < st.res.length ? (st.res[i] ? '#5ad08a' : '#ff4a3a') : '#20382a', W - 4 - (st.qs.length - i) * 6, 5, 4, 4);
     if (st.fx && --st.fx.t <= 0) next();
     if (!st.done && st.mode === 'map') {
@@ -476,17 +491,18 @@ export default async function (ctx) {
         const [cx, cy] = m.mid[ti]; g.strokeStyle = '#ffd84a'; for (let a = 0; a < 24; a++) { const t = a / 24 * Math.PI * 2; px(g, '#ffd84a', cx + Math.cos(t) * 7, MY + cy + Math.sin(t) * 7); } }
       else { const [x, y] = st.cur.map(Math.round); for (const [dx, dy] of [[-3, 0], [-2, 0], [2, 0], [3, 0], [0, -3], [0, -2], [0, 2], [0, 3]]) { px(g, '#05010b', x + dx + 1, y + dy + 1); px(g, '#ffffff', x + dx, y + dy); } }
       px(g, '#06100a', 0, MY + MH, W, H - MY - MH);
-      const t = st.fx ? (st.fx.good ? 'Bravo : ' + q.c.name : 'Non : ' + st.fx.got.name + ' · ' + q.c.name + ' clignote') : 'Où est : ' + q.c.name + ' ?';
+      const t = st.fx ? (st.fx.good ? 'Bravo : ' + q.c.name + (q.c.zone === 'fr' ? ' (' + geNum(q.c) + ')' : '') : 'Non : ' + st.fx.got.name + ' · ' + q.c.name + ' clignote') : 'Où est : ' + q.c.name + ' ?';
       PXK.fill(g, PXK.layout(t).w > W - 8 ? (st.fx && !st.fx.good ? 'Non : ' + st.fx.got.name : t) : t, W / 2, H - 3, st.fx ? (st.fx.good ? '#7ee07a' : '#ff8a7a') : '#ffffff', 1, 'center');
     } else if (!st.done) {
       const q = st.qs[st.i];
-      if (st.mode === 'flag') { const f = flag(q.c.iso), fx = W / 2 - 32, fy = 22;
+      if (st.mode === 'flag' && q.c.zone === 'fr') { pxFont(g, 'Le département numéro', W / 2, 30, '#8ab0a0', 8, 'center'); pxFont(g, geNum(q.c), W / 2, 66, '#ffffff', 24, 'center'); }
+      else if (st.mode === 'flag') { const f = flag(q.c.iso), fx = W / 2 - 32, fy = 22;
         px(g, '#06100a', fx - 2, fy - 2, 68, 46);
         if (f.complete && f.naturalWidth) { g.imageSmoothingEnabled = true; g.drawImage(f, fx, fy, 64, 42); g.imageSmoothingEnabled = false; }  // réduit en 64×42 : il devient un drapeau en pixels
         else pxFont(g, f.bad ? 'Drapeau indisponible (hors ligne ?)' : 'Chargement…', W / 2, 46, '#8ab0a0', 8, 'center');
         pxFont(g, 'Quel pays ?', W / 2, 80, '#d0f8e0', 8, 'center');
       } else {
-        pxFont(g, st.mode === 'cap' ? 'Capitale de' : 'Ce pays a pour capitale', W / 2, 34, '#8ab0a0', 8, 'center');
+        pxFont(g, q.c.zone === 'fr' ? (st.mode === 'cap' ? 'Préfecture de' : 'Ce département a pour préfecture') : st.mode === 'cap' ? 'Capitale de' : 'Ce pays a pour capitale', W / 2, 34, '#8ab0a0', 8, 'center');
         const t = st.mode === 'cap' ? q.c.name : q.c.cap; pxFont(g, t, W / 2, 60, '#ffffff', t.length > 14 ? 8 : 16, 'center');
       }
       q.ch.forEach((x, i) => { const [bx, by, bw, bh] = box(i), s = i === st.sel, r = st.fx && x === q.c, wr = st.fx && !st.fx.good && i === st.fx.k;
@@ -500,7 +516,7 @@ export default async function (ctx) {
       const rows = st.missed.length > 9 ? st.missed.slice(0, 8) : st.missed;
       rows.forEach(({ c, got }, i) => { const y = 46 + i * 9, f = flag(c.iso);
         if (f.complete && f.naturalWidth) { g.imageSmoothingEnabled = true; g.drawImage(f, 6, y - 7, 11, 7); g.imageSmoothingEnabled = false; } else px(g, '#20382a', 6, y - 7, 11, 7);
-        const main = st.mode === 'cap' ? c.name + ' → ' + c.cap : st.mode === 'land' ? c.cap + ' → ' + c.name : c.name;
+        const main = st.mode === 'cap' ? c.name + ' → ' + c.cap : st.mode === 'land' ? c.cap + ' → ' + c.name : c.zone === 'fr' ? geNum(c) + ' · ' + c.name : c.name;
         const said = got && (st.mode === 'cap' ? got.cap : got.name), full = main + (said ? '  (pas ' + said + ')' : '');
         let t = PXK.layout(full).w <= W - 28 ? full : main; while (PXK.layout(t).w > W - 28) t = t.slice(0, -2) + '…';
         PXK.fill(g, t, 21, y, '#ffffff', 1); });
@@ -513,7 +529,7 @@ export default async function (ctx) {
     const k = save.mode + '|' + (save.zone || 'monde');
     $('geStats').replaceChildren(...[['Record (ce choix)', (save.best[k] || 0) + ' / 10'], ['Bonnes réponses', save.right], ['Séries', save.series], ['Pays à revoir', Object.values(save.miss).filter(Boolean).length]].flatMap(([a, c]) => [el('span', '', a), el('b', '', String(c))]));
   }
-  const restart = () => { save.mode = $('geMode').value; save.zone = $('geZone').value; keep(); info(); start(); };
+  const restart = () => { save.mode = $('geMode').value; save.zone = $('geZone').value; geModes(); keep(); info(); start(); };
   $('geMode').onchange = restart; $('geZone').onchange = restart;
   $('geNew').onclick = () => { restart(); $('geNew').blur(); };
   $('geFs').onclick = () => { $('geFs').blur(); try { if (document.fullscreenElement) document.exitFullscreen(); else $('geCanvas').parentElement.requestFullscreen?.().catch(() => {}); } catch {} };
@@ -543,12 +559,12 @@ export default async function (ctx) {
   function geCheck() {  // vérification : pas deux fois le même code ni le même nom, chaque série a 10 questions à 4 réponses différentes dont la bonne, dans chaque mode et chaque continent ; en mode carte, chaque pays demandé se clique en son centre
     const bad = [], keepS = JSON.stringify(save);
     for (const iso of pins.keys()) if (!C.some(c => c.iso === iso)) bad.push('point inconnu ' + iso);
-    if (C.filter(c => !pins.has(c.iso)).map(c => c.iso).join() !== 'ad,li,lu,mc,sm,va') bad.push('pays sans point : ' + C.filter(c => !pins.has(c.iso)).map(c => c.iso).join());
+    if (C.filter(c => !pins.has(c.iso)).map(c => c.iso).join() !== 'ad,li,lu,mc,sm,va,f75,f92,f93,f94') bad.push('pays sans point : ' + C.filter(c => !pins.has(c.iso)).map(c => c.iso).join());
     for (const [z] of GE_ZONES) { const m = geoMap(z), mine = C.filter(c => (!z || c.zone === z) && m.count[IDX.get(c)] > 0);
       if (z && mine.length < C.filter(c => c.zone === z && pins.has(c.iso)).length * .9) bad.push('carte ' + (z || 'monde') + ' : ' + mine.length + ' pays visibles');
       for (const c of mine) { const [x, y] = m.mid[IDX.get(c)], o = hitMap(z, x, MY + y); if (o !== IDX.get(c) && m.owner[Math.floor(y) * W + Math.floor(x)] >= 0) { bad.push('carte ' + (z || 'monde') + ' : ' + c.name + ' au centre donne ' + C[o]?.name); break; } } }
     if (new Set(C.map(c => c.iso)).size !== C.length || new Set(C.map(c => c.name)).size !== C.length) bad.push('doublon');
-    if (C.some(c => !/^[a-z]{2}$/.test(c.iso) || !GE_ZONES.some(z => z[0] === c.zone))) bad.push('code ou continent');
+    if (C.filter(c => c.zone === 'fr').length !== 96 || C.some(c => !(c.zone === 'fr' ? /^f(\d\d|2[ab])$/ : /^[a-z]{2}$/).test(c.iso) || !GE_ZONES.some(z => z[0] === c.zone))) bad.push('code ou continent');
     for (const [m] of GE_MODES) for (const [z] of GE_ZONES) { save.mode = m; save.zone = z; const qs = series();
       if (qs.length !== N) bad.push(m + ' ' + z + ' : ' + qs.length + ' questions');
       for (const q of qs) if (m === 'map' ? geoMap(z).count[IDX.get(q.c)] < 1 : new Set(q.ch).size !== 4 || !q.ch.includes(q.c) || (m !== 'flag' && q.ch.some(x => !x.cap))) { bad.push(m + ' ' + z + ' : réponses ' + q.c.name); break; } }

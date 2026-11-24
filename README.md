@@ -4,6 +4,10 @@ Un quiz de géographie en pixel art : drapeaux, capitales et pays.
 
 *English version: [README.en.md](README.en.md)*
 
+## Les départements français (nouveau en 1.2.0)
+
+Dans la liste des régions, **France (départements)** : les 96 départements de métropole. Quatre façons de jouer : les **numéros** (le 69, c'est quel département ?), les **préfectures**, le **département d'une préfecture**, et la **carte** où l'on clique le département demandé. La carte est dessinée à la main : chaque département prend la terre la plus proche de son centre, les formes sont approchées mais les places sont justes. Paris et la petite couronne, trop petits pour être cliqués, restent dans les trois autres jeux.
+
 ## Les quatre jeux
 
 - **Drapeaux** : un drapeau s’affiche, trouve le pays.

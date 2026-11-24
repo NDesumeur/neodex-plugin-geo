@@ -1,4 +1,12 @@
 {
+ "France (départements)": "France (départements)",
+ "Numéros": "Numbers",
+ "Préfectures": "Prefectures",
+ "Département d’une préfecture": "Département of a prefecture",
+ "France": "France",
+ "Le département numéro": "Département number",
+ "Préfecture de": "Prefecture of",
+ "Ce département a pour préfecture": "This département has the prefecture",
  "  (pas ": "  (not ",
  " : où est ": ": where is ",
  " ? Clique sur la carte, ou flèches et Entrée.": "? Click on the map, or arrows and Enter.",
@@ -82,7 +90,6 @@
  "Pays à revoir": "Countries to review",
  "Quel pays ?": "Which country?",
  "Question": "Question",
- "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, séries de 10 questions, les pays ratés reviennent plus souvent et la fin de série montre tes erreurs avec la bonne réponse. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com.": "Pixel-art geography quiz: recognise flags, find capitals or the country of a capital, or click the requested country on a pixel world map. 194 countries, by continent or the whole world, series of 10 questions, missed countries come back more often and the end of a series shows your mistakes with the right answer. Keyboard, mouse or gamepad, full screen. Flags provided by flagcdn.com.",
  "RECORDS": "RECORDS",
  "Record (ce choix)": "Record (this choice)",
  "SÉRIE FINIE": "SERIES OVER",
@@ -107,5 +114,6 @@
  "? Clique sur la carte, ou flèches et Entrée.": "? Click on the map, or arrows and Enter.",
  "pays sans point :": "countries without a dot:",
  "au centre donne": "in the centre gives",
- "Rien n'est synchronisé : tes records restent sur cet appareil.": "Nothing is synced: your records stay on this device."
+ "Rien n'est synchronisé : tes records restent sur cet appareil.": "Nothing is synced: your records stay on this device.",
+ "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, séries de 10 questions, les pays ratés reviennent plus souvent et la fin de série montre tes erreurs avec la bonne réponse. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com. Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, et les 96 départements français (numéros, préfectures et carte). Séries de 10 questions, les ratés reviennent plus souvent et la fin de série montre tes erreurs. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com.": "Pixel-art geography quiz: recognise flags, find capitals or the country of a capital, or click the requested country on a pixel world map. 194 countries, by continent or the whole world, series of 10 questions, missed countries come back more often and the end of a series shows your mistakes with the right answer. Keyboard, mouse or gamepad, full screen. Flags provided by flagcdn.com. Pixel-art geography quiz: recognise flags, find capitals or the country of a capital, or click the requested country on a pixel world map. 194 countries, by continent or worldwide, plus the 96 French départements (numbers, prefectures and map). Series of 10 questions, missed ones come back more often and the end of a series shows your mistakes. Keyboard, mouse or gamepad, full screen. Flags provided by flagcdn.com."
 }

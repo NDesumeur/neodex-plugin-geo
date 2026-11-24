@@ -1,16 +1,19 @@
 {
   "id": "neodex.geo",
   "name": "Géo",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "author": "NDesumeur",
-  "description": "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, séries de 10 questions, les pays ratés reviennent plus souvent et la fin de série montre tes erreurs avec la bonne réponse. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com.",
+  "description": "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, séries de 10 questions, les pays ratés reviennent plus souvent et la fin de série montre tes erreurs avec la bonne réponse. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com. Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, et les 96 départements français (numéros, préfectures et carte). Séries de 10 questions, les ratés reviennent plus souvent et la fin de série montre tes erreurs. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com.",
   "icon": "icon.png",
   "entry": "index.js",
   "view": "geo",
   "neobase": ">=4.0.0",
   "type": "app",
   "category": "Jeux",
-  "compatibility": ["windows", "linux"],
+  "compatibility": [
+    "windows",
+    "linux"
+  ],
   "syncMode": "aucune",
   "syncInfo": "Rien n'est synchronisé : tes records restent sur cet appareil.",
   "gamepad": true,
