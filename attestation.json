@@ -1,9 +1,9 @@
 {
   "pluginId": "neodex.geo",
   "repo": "NDesumeur/neodex-plugin-geo",
-  "version": "1.1.1",
-  "sha256": "f1b297b76f191d1d8587fe74bafd75186a5e033ff79d29fda83c9561ff801396",
-  "approvedAt": "2026-11-19T23:26:41.409Z",
+  "version": "1.2.0",
+  "sha256": "9d1c122e508d4d7b58c3fd46234781747951de17abb343cb4c403305e1913484",
+  "approvedAt": "2026-11-24T15:56:19.294Z",
   "neobase": ">=4.0.0",
-  "signature": "ySP326UmCCObmcs9APJS8GK0DAOTDL3V0gpLaZvmZpAofnG4AN+wPKKneMg5d9vgudjwABerTJGqrw6nIDIfCA=="
+  "signature": "P/8xCEe1DkxK0l1p9Bt5rSesukDWIkHF8X/Ht324b1X8aPITRjibhI7YsRcAVauVXpAP5V6Bv3n/t8ma81aWAQ=="
 }
