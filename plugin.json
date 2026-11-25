@@ -1,7 +1,7 @@
 {
   "id": "neodex.geo",
   "name": "Géo",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "NDesumeur",
   "description": "Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, séries de 10 questions, les pays ratés reviennent plus souvent et la fin de série montre tes erreurs avec la bonne réponse. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com. Quiz de géographie en pixel art : reconnais les drapeaux, trouve les capitales ou le pays d'une capitale, ou clique le pays demandé sur une carte du monde en pixels. 194 pays, par continent ou le monde entier, et les 96 départements français (numéros, préfectures et carte). Séries de 10 questions, les ratés reviennent plus souvent et la fin de série montre tes erreurs. Clavier, souris ou manette, plein écran. Drapeaux fournis par flagcdn.com.",
   "icon": "icon.png",
@@ -24,5 +24,51 @@
   "permissions": [
     "storage",
     "network:flagcdn.com"
+  ],
+  "succes": [
+    {
+      "id": "premier",
+      "nom": "Premier voyage",
+      "texte": "Finir une première série"
+    },
+    {
+      "id": "parfait",
+      "nom": "Sans faute",
+      "texte": "Faire 10 sur 10 dans une série"
+    },
+    {
+      "id": "monde",
+      "nom": "Tour du monde",
+      "texte": "Faire 10 sur 10 dans les 4 modes du monde entier"
+    },
+    {
+      "id": "continents",
+      "nom": "Six continents",
+      "texte": "Faire 10 sur 10 sur chaque continent"
+    },
+    {
+      "id": "france",
+      "nom": "Cocorico",
+      "texte": "Faire 10 sur 10 sur les départements de France"
+    },
+    {
+      "id": "mille",
+      "nom": "Globe-trotteur",
+      "texte": "Donner 1 000 bonnes réponses"
+    },
+    {
+      "id": "atlas",
+      "nom": "Atlas vivant",
+      "texte": "Faire 10 sur 10 dans tous les modes et toutes les zones",
+      "cache": true
+    }
+  ],
+  "records": [
+    {
+      "id": "bonnes",
+      "nom": "Bonnes réponses",
+      "sens": "haut",
+      "format": "nombre"
+    }
   ]
 }

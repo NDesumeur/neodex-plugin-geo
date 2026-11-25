@@ -393,6 +393,9 @@ export default async function (ctx) {
   const C = GE_DATA.split(/[;\n]/).map(s => { const [iso, name, cap, zone] = s.split('|'); return { iso, name, cap, zone }; });
   const save = { mode: 'flag', zone: '', best: {}, right: 0, series: 0, miss: {}, ...(await doc('records')) };
   const keep = () => folder.write('records', save).catch(() => {});
+  // les trophées de NeoDex (3.4.8 et plus) : succès et records déclarés dans plugin.json ; sur un NeoDex plus ancien, rien ne se passe
+  const trophy = id => { ctx.games?.unlock(id).catch(() => {}); };
+  const trophyRecord = (id, v) => { if (v != null && Number.isFinite(+v)) ctx.games?.record(id, +v).catch(() => {}); };
   const fill = (sel, list) => sel.replaceChildren(...list.map(([v, n]) => { const o = el('option', '', n); o.value = v; return o; }));
   const geModeName = (m, z) => z === 'fr' ? {flag: 'Numéros', cap: 'Préfectures', land: 'Département d’une préfecture', map: 'Carte'}[m] : GE_MODES.find(x => x[0] === m)[1];
   const geModes = () => { [...$('geMode').options].forEach(o => { o.textContent = geModeName(o.value, save.zone); }); $('geMode').value = save.mode; };
@@ -526,6 +529,7 @@ export default async function (ctx) {
     if (tick % 15 === 0) { const q = st.qs[st.i]; g.canvas.setAttribute('aria-label', st.done ? 'Série finie : ' + st.ok + ' sur ' + st.qs.length + '.' + (st.missed.length ? ' À revoir : ' + st.missed.map(m => m.c.name).join(', ') + '.' : '') : st.mode === 'map' ? 'Question ' + (st.i + 1) + ' : où est ' + q.c.name + ' ? Clique sur la carte, ou flèches et Entrée.' : 'Question ' + (st.i + 1) + ' : ' + (st.mode === 'flag' ? 'drapeau à reconnaître' : st.mode === 'cap' ? 'capitale de ' + q.c.name : 'pays dont la capitale est ' + q.c.cap) + '. Réponses : ' + q.ch.map((x, i) => (i + 1) + ' ' + label(q, x)).join(', ') + '.'); }
   }
   function info() {
+    setTimeout(geTrophies);
     const k = save.mode + '|' + (save.zone || 'monde');
     $('geStats').replaceChildren(...[['Record (ce choix)', (save.best[k] || 0) + ' / 10'], ['Bonnes réponses', save.right], ['Séries', save.series], ['Pays à revoir', Object.values(save.miss).filter(Boolean).length]].flatMap(([a, c]) => [el('span', '', a), el('b', '', String(c))]));
   }
@@ -574,6 +578,15 @@ export default async function (ctx) {
   { const c = geCheck(); console.assert(c === 'ok', 'geo', c); view.dataset.selfcheck = c; }
   start(); info();
   let raf = 0; const frame = () => { if (!on()) { raf = 0; return; } raf = requestAnimationFrame(frame); draw(); };
+  // les trophées, tirés des statistiques et des records gardés (aussi à l'ouverture : ce qui a été fait avant compte)
+  function geTrophies() {
+    const sig = [save.right, save.series, JSON.stringify(save.best)].join(); if (sig === geTrophies.sig) return; geTrophies.sig = sig;
+    const ten = (m, z) => (save.best[m + '|' + (z || 'monde')] || 0) >= 10, modes = GE_MODES.map(x => x[0]), conts = GE_ZONES.map(x => x[0]).filter(z => z && z !== 'fr');
+    trophyRecord('bonnes', save.right || null);
+    if (save.series >= 1) trophy('premier'); if (Object.values(save.best).some(v => v >= 10)) trophy('parfait');
+    if (modes.every(m => ten(m, ''))) trophy('monde'); if (conts.every(z => modes.some(m => ten(m, z)))) trophy('continents'); if (modes.some(m => ten(m, 'fr'))) trophy('france');
+    if (save.right >= 1000) trophy('mille'); if (GE_ZONES.every(([z]) => modes.every(m => ten(m, z)))) trophy('atlas');
+  }
   ctx.onOpen(() => { g ??= $('geCanvas').getContext('2d'); if (!raf) raf = requestAnimationFrame(frame); });
   $('geCanvas').__q = () => st.done ? -1 : st.qs[st.i].ch.indexOf(st.qs[st.i].c);
   $('geCanvas').__ge = { st: () => st, check: geCheck, map: geoMap, idx: c => IDX.get(c), MY };
